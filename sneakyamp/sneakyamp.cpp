@@ -41,7 +41,7 @@ BOOL WINAPI _DllMainCRTStartup(HANDLE hInst, ULONG ul_reason_for_call, LPVOID lp
 #define MAX_FILES 10;
 
 //DEBUG
-int debug_keycode = 0;
+UINT debug_keycode = 0;
 
 // Winamp HWNDs
 HWND g_hwndWinamp;
@@ -398,7 +398,7 @@ LRESULT CALLBACK WndProc(HWND hwndWinamp, UINT message, WPARAM wParam, LPARAM lP
 
 			// Little test, to make sure hook is working
 			// code gets displayed on options page
-			debug_keycode = (int)wParam;
+			debug_keycode = (UINT)wParam;
 			
 			//FILE *file;
 			//file = fopen("c:\\sneakytest.txt","a");

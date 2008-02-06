@@ -23,4 +23,4 @@ extern stropt StringOptions[NUM_OF_STRS];
 extern intopt IntOptions[NUM_OF_INTS];
 
 //DEBUG
-extern debug_keycode;
+extern UINT debug_keycode;

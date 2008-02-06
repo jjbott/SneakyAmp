@@ -143,7 +143,7 @@ void inputParse(char input_char)
 
 
 	// Filter out random information
-	for(i = 0; i < tokens.size()-1; i++)
+	for(int i = 0; i < tokens.size()-1; i++)
 	{
 		
 		// Check if token has random command in it

@@ -1,203 +1,313 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="7.00"
+	Version="8.00"
 	Name="sneakyamp"
 	ProjectGUID="{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory="Debug"
 			IntermediateDirectory="Debug"
 			ConfigurationType="2"
-			CharacterSet="2">
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;SNEAKYAMP_EXPORTS"
-				MinimalRebuild="TRUE"
+				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="TRUE"
-				DebugInformationFormat="4"/>
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="4"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				OutputFile="c:\program files\winamp\plugins\gen_snkyamp.dll"
 				LinkIncremental="2"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/sneakyamp.pdb"
 				SubSystem="2"
 				ImportLibrary="$(OutDir)/sneakyamp.lib"
-				TargetMachine="1"/>
+				TargetMachine="1"
+			/>
 			<Tool
-				Name="VCMIDLTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCManifestTool"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCAppVerifierTool"
+			/>
 			<Tool
-				Name="VCWebDeploymentTool"/>
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory="Release"
 			IntermediateDirectory="Release"
 			ConfigurationType="2"
-			CharacterSet="2">
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				OmitFramePointers="TRUE"
+				OmitFramePointers="true"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;SNEAKYAMP_EXPORTS"
-				StringPooling="TRUE"
+				StringPooling="true"
 				RuntimeLibrary="0"
-				EnableFunctionLevelLinking="TRUE"
+				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
-				Detect64BitPortabilityProblems="TRUE"
-				DebugInformationFormat="3"/>
+				Detect64BitPortabilityProblems="true"
+				DebugInformationFormat="3"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				OutputFile="c:\program files\winamp\plugins\gen_snkyamp.dll"
 				LinkIncremental="1"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
 				ImportLibrary="$(OutDir)/sneakyamp.lib"
-				TargetMachine="1"/>
+				TargetMachine="1"
+			/>
 			<Tool
-				Name="VCMIDLTool"/>
+				Name="VCALinkTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCManifestTool"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCXDCMakeTool"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCBscMakeTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"/>
+				Name="VCFxCopTool"
+			/>
 			<Tool
-				Name="VCWebServiceProxyGeneratorTool"/>
+				Name="VCAppVerifierTool"
+			/>
 			<Tool
-				Name="VCWebDeploymentTool"/>
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
 		<Filter
 			Name="Source Files"
-			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm"
+			>
 			<File
-				RelativePath="OptionsDlg.cpp">
+				RelativePath="basicWinampCommands.cpp"
+				>
 			</File>
 			<File
-				RelativePath="StdAfx.cpp">
+				RelativePath="commands.cpp"
+				>
 			</File>
 			<File
-				RelativePath="basicWinampCommands.cpp">
+				RelativePath="config.cpp"
+				>
 			</File>
 			<File
-				RelativePath="commands.cpp">
+				RelativePath="dirscan.cpp"
+				>
 			</File>
 			<File
-				RelativePath="config.cpp">
+				RelativePath="filescan.cpp"
+				>
 			</File>
 			<File
-				RelativePath="dirscan.cpp">
+				RelativePath="inputparse.cpp"
+				>
 			</File>
 			<File
-				RelativePath="filescan.cpp">
+				RelativePath="newCommands.cpp"
+				>
 			</File>
 			<File
-				RelativePath="inputparse.cpp">
+				RelativePath="OptionsDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath="newCommands.cpp">
+				RelativePath="playlist.cpp"
+				>
 			</File>
 			<File
-				RelativePath="playlist.cpp">
+				RelativePath="sneakyamp.cpp"
+				>
 			</File>
 			<File
-				RelativePath="sneakyamp.cpp">
+				RelativePath="StdAfx.cpp"
+				>
 			</File>
 			<File
-				RelativePath="stringutil.cpp">
+				RelativePath="stringutil.cpp"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
-			Filter="h;hpp;hxx;hm;inl;inc">
+			Filter="h;hpp;hxx;hm;inl;inc"
+			>
 			<File
-				RelativePath="Gen.h">
+				RelativePath="basicWinampCommands.h"
+				>
 			</File>
 			<File
-				RelativePath="OptionsDlg.h">
+				RelativePath="commands.h"
+				>
 			</File>
 			<File
-				RelativePath="StdAfx.h">
+				RelativePath="config.h"
+				>
 			</File>
 			<File
-				RelativePath="basicWinampCommands.h">
+				RelativePath="dirscan.h"
+				>
 			</File>
 			<File
-				RelativePath="commands.h">
+				RelativePath="filescan.h"
+				>
 			</File>
 			<File
-				RelativePath="config.h">
+				RelativePath="Gen.h"
+				>
 			</File>
 			<File
-				RelativePath="dirscan.h">
+				RelativePath="inputparse.h"
+				>
 			</File>
 			<File
-				RelativePath="filescan.h">
+				RelativePath="..\snkyamphook\khk.h"
+				>
 			</File>
 			<File
-				RelativePath="inputparse.h">
+				RelativePath="newCommands.h"
+				>
 			</File>
 			<File
-				RelativePath="..\snkyamphook\khk.h">
+				RelativePath="OptionsDlg.h"
+				>
 			</File>
 			<File
-				RelativePath="newCommands.h">
+				RelativePath="playlist.h"
+				>
 			</File>
 			<File
-				RelativePath="playlist.h">
+				RelativePath="resource.h"
+				>
 			</File>
 			<File
-				RelativePath="resource.h">
+				RelativePath="sneakyamp.h"
+				>
 			</File>
 			<File
-				RelativePath="sneakyamp.h">
+				RelativePath="StdAfx.h"
+				>
 			</File>
 			<File
-				RelativePath="stringutil.h">
+				RelativePath="stringutil.h"
+				>
 			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
-			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+			>
 			<File
-				RelativePath="Script1.rc">
+				RelativePath="bitmap1.bmp"
+				>
 			</File>
 			<File
-				RelativePath="bitmap1.bmp">
+				RelativePath="Script1.rc"
+				>
 			</File>
 		</Filter>
 	</Files>

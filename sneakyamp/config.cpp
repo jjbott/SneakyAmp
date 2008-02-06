@@ -87,11 +87,11 @@ BOOL CALLBACK ConfigProc(HWND hwndDlg,UINT uMsg,WPARAM wParam,LPARAM lParam)
 					CheckDlgButton(hwndDlg,IntOptions[i].ID,(IntOptions[i].Edit?BST_CHECKED:BST_UNCHECKED));
 				}
 
-				for (i = 0; i < 23; i++)
+				for (int i = 0; i < 23; i++)
 				{
 					SetDlgItemText(hwndDlg,StringOptions[i].ID, StringOptions[i].Edit.c_str());
 				}
-				for (i = 6; i < 9; i++)
+				for (int i = 6; i < 9; i++)
 				{
 					wsprintf(string,"%d",IntOptions[i].Edit);
 					SetDlgItemText(hwndDlg,IntOptions[i].ID, string);
@@ -299,7 +299,7 @@ void config_read()
 		{
 			StringOptions[i].Edit = StringOptions[i].Default;
 		}
-		for (i = 0; i < NUM_OF_INTS; i++)
+		for (int i = 0; i < NUM_OF_INTS; i++)
 		{
 			IntOptions[i].Edit = IntOptions[i].Default;
 		}
@@ -322,7 +322,7 @@ void config_read()
 			IntOptions[4].Edit = 0;
 		}
 	
-		for (i = 0; i < NUM_OF_STRS; i++)
+		for (int i = 0; i < NUM_OF_STRS; i++)
 		{
 			GetPrivateProfileString(szAppName, StringOptions[i].Description.c_str(), StringOptions[i].Default.c_str(), buffer, MAX_PATH, ini_file);
 			StringOptions[i].Edit = buffer;

@@ -109,7 +109,7 @@ void JumpToFile(vector<string> *tokens)
 	//for(i = 0; i< filelist.size(); i++)
 	//	MessageBox(NULL, filelist[i].filename.c_str(), "test", MB_OK);
 
-	for(i = 0; i < (int)filelist.size(); i++)
+	for(int i = 0; i < (int)filelist.size(); i++)
 	{
 		findPos = 0;
 		for(int j = 1; j < (int)tokens->size(); j++)

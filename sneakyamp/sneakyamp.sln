@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sneakyamp", "sneakyamp.vcproj", "{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snkyamphook", "..\snkyamphook\snkyamphook.vcproj", "{2E2BB262-B858-471E-A3C8-18546A1A3EA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}.0 = {2E2BB262-B858-471E-A3C8-18546A1A3EA0}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}.Debug.ActiveCfg = Debug|Win32
+		{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}.Debug.Build.0 = Debug|Win32
+		{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}.Release.ActiveCfg = Release|Win32
+		{45210FAA-CC95-4A0F-ABF7-4BCE73044AE4}.Release.Build.0 = Release|Win32
+		{2E2BB262-B858-471E-A3C8-18546A1A3EA0}.Debug.ActiveCfg = Debug|Win32
+		{2E2BB262-B858-471E-A3C8-18546A1A3EA0}.Debug.Build.0 = Debug|Win32
+		{2E2BB262-B858-471E-A3C8-18546A1A3EA0}.Release.ActiveCfg = Release|Win32
+		{2E2BB262-B858-471E-A3C8-18546A1A3EA0}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

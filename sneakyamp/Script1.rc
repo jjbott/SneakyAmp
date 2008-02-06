@@ -1,0 +1,281 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 374, 242
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sneaky Amp Setup"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Apply",IDC_APPLY,316,164,41,14
+    DEFPUSHBUTTON   "OK",IDOK,316,148,41,14
+    PUSHBUTTON      "Cancel",IDCANCEL,316,180,41,14
+    PUSHBUTTON      "About",IDC_ABOUT,261,172,41,14
+    CONTROL         "Enable Sneaky Amp",IDC_ENABLECHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,80,10
+    GROUPBOX        "Begin Command",IDC_STATIC,7,22,99,45
+    CONTROL         "",IDC_BCEDITRADIO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | WS_GROUP | WS_TABSTOP,13,34,16,8
+    CONTROL         "  Enter",IDC_BCENTERRADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,13,49,37,10
+    EDITTEXT        IDC_BCEDIT,29,33,64,13,ES_AUTOHSCROLL
+    GROUPBOX        "End Command",IDC_STATIC,7,68,99,45
+    CONTROL         "",IDC_ECEDITRADIO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_CENTER | WS_GROUP | WS_TABSTOP,13,81,16,8
+    CONTROL         "  Enter",IDC_ECENTERRADIO,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,13,98,37,10
+    EDITTEXT        IDC_ECEDIT,29,80,64,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PLAYEDIT,148,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ADDEDIT,148,50,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STOPEDIT,148,66,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PAUSEEDIT,148,82,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FORWARDEDIT,225,82,40,14,ES_AUTOHSCROLL
+    GROUPBOX        "Commands",IDC_STATIC,115,7,242,113
+    LTEXT           "Play",IDC_STATIC,131,21,14,8
+    LTEXT           "Add",IDC_STATIC,133,50,14,8
+    LTEXT           "Stop",IDC_STATIC,132,69,16,8
+    LTEXT           "Pause",IDC_STATIC,127,85,21,8
+    LTEXT           "Previous",IDC_STATIC,191,21,28,8
+    LTEXT           "Next",IDC_STATIC,203,34,16,8
+    LTEXT           "Volume",IDC_STATIC,195,52,24,8
+    LTEXT           "Balance",IDC_STATIC,192,68,27,8
+    EDITTEXT        IDC_PREVIOUSEDIT,225,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_NEXTEDIT,225,34,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VOLUMEEDIT,225,50,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BALANCEEDIT,225,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "Forward",IDC_STATIC,196,85,26,8
+    LTEXT           "Rewind",IDC_STATIC,196,101,25,8
+    EDITTEXT        IDC_REWINDEDIT,225,98,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SHUFFLEEDIT,297,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REPEATEDIT,297,34,40,14,ES_AUTOHSCROLL
+    LTEXT           "Shuffle",IDC_STATIC,271,21,23,8
+    LTEXT           "Repeat",IDC_STATIC,270,36,24,8
+    EDITTEXT        IDC_ONEDIT,297,71,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFEDIT,297,87,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RANDOMEDIT,148,98,40,14,ES_AUTOHSCROLL
+    LTEXT           "Random",IDC_STATIC,118,101,28,8
+    LTEXT           "On",IDC_STATIC,284,74,10,8
+    LTEXT           "Off",IDC_STATIC,284,90,10,8
+    EDITTEXT        IDC_MP3LOCEDIT,45,139,170,14,ES_AUTOHSCROLL
+    LTEXT           "Location of .mp3s",IDC_STATIC,7,129,64,8
+    EDITTEXT        IDC_DIRPREFIXEDIT,7,206,24,14,ES_AUTOHSCROLL
+    LTEXT           "Directory Search Key Prefix",IDC_STATIC,34,209,87,8
+    EDITTEXT        IDC_DEFAULTFORREWEDIT,128,207,24,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "Default Forward/Rewind Offset (Seconds)",IDC_STATIC,154,
+                    210,133,8
+    EDITTEXT        IDC_MAXFILEEDIT,7,222,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Maximum Files to Return",IDC_STATIC,34,225,78,8
+    CONTROL         "Assume .mp3 extension",IDC_MP3CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,132,223,90,10
+    PUSHBUTTON      "Hotkeys",IDC_MACROS,261,156,41,14
+    EDITTEXT        IDC_LISTEDIT,148,34,40,14,ES_AUTOHSCROLL
+    LTEXT           "Play m3u",IDC_STATIC,116,37,30,8
+    GROUPBOX        "Sub-commands",IDC_STATIC,269,61,77,51
+    LTEXT           "Shuffle/Repeat",IDC_STATIC,275,54,50,8
+    LTEXT           "Directory 1",IDC_STATIC,7,142,35,8
+    EDITTEXT        IDC_MP3LOCEDIT2,45,154,170,14,ES_AUTOHSCROLL
+    LTEXT           "Directory 2",IDC_STATIC,7,157,35,8
+    EDITTEXT        IDC_MP3LOCEDIT3,45,169,170,14,ES_AUTOHSCROLL
+    LTEXT           "Directory 3",IDC_STATIC,7,172,35,8
+    EDITTEXT        IDC_MP3LOCEDIT4,45,184,170,14,ES_AUTOHSCROLL
+    LTEXT           "Directory 4",IDC_STATIC,7,187,35,8
+    EDITTEXT        IDC_KEY,317,221,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DEbUG_INPUT,279,196,78,13,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+END
+
+IDD_ABOUT DIALOG  0, 0, 226, 117
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,88,96,50,14
+    CONTROL         122,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE,21,20,48,40
+    LTEXT           "SNEAKY AMP V2.0",IDC_STATIC,81,16,64,8
+    LTEXT           "Written by Joe Bott",IDC_STATIC,82,32,61,8
+    LTEXT           "jbott@wi.rr.com",IDC_STATIC,87,48,50,8
+    LTEXT           "http://www.execpc.com/~zor/SneakyAmp/",IDC_STATIC,42,64,
+                    140,8
+    LTEXT           "For help, read sneakyamp_readme.htm",IDC_STATIC,48,80,
+                    123,8
+END
+
+IDD_MACROS DIALOG  0, 0, 183, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Macro Setup"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,184,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,126,184,50,14
+    EDITTEXT        IDC_ACTION1,52,22,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION2,52,36,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION3,52,50,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION4,52,64,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION5,52,78,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION6,52,92,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION7,52,106,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION8,52,120,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION9,52,134,117,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION0,52,148,117,14,ES_AUTOHSCROLL
+    GROUPBOX        "Macros",IDC_STATIC,7,7,169,161
+    LTEXT           "Ctrl-Shift-1",IDC_STATIC,13,25,33,8
+    LTEXT           "Ctrl-Shift-2",IDC_STATIC,13,39,33,8
+    LTEXT           "Ctrl-Shift-3",IDC_STATIC,13,54,33,8
+    LTEXT           "Ctrl-Shift-4",IDC_STATIC,13,68,33,8
+    LTEXT           "Ctrl-Shift-5",IDC_STATIC,13,81,33,8
+    LTEXT           "Ctrl-Shift-6",IDC_STATIC,13,95,33,8
+    LTEXT           "Ctrl-Shift-7",IDC_STATIC,13,110,33,8
+    LTEXT           "Ctrl-Shift-8",IDC_STATIC,13,124,33,8
+    LTEXT           "Ctrl-Shift-9",IDC_STATIC,13,137,33,8
+    LTEXT           "Ctrl-Shift-0",IDC_STATIC,13,151,33,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 357
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 219
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+
+    IDD_MACROS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Send comments and bug reports to jbott@wi.rr.com"
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "gen_snkyamp"
+            VALUE "FileVersion", "2.0"
+            VALUE "InternalName", "SneakyAmp"
+            VALUE "LegalCopyright", "Copyright © 2000, 2002"
+            VALUE "OriginalFilename", "gen_snkyamp.dll"
+            VALUE "ProductName", "Sneaky Amp"
+            VALUE "ProductVersion", "2.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
